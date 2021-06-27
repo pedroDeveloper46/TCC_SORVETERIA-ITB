@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A2DEECC0-7146-4420-AA45-E4F9F06C57BD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TCC_Sorveteria</RootNamespace>
+    <AssemblyName>TCC-Sorveteria</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>TCC_Sorveteria.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="zxing, Version=0.16.4.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.4\lib\net45\zxing.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.presentation, Version=0.16.4.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.4\lib\net45\zxing.presentation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Modelos\Cadastrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modelos\Cadastrar.Designer.cs">
+      <DependentUpon>Cadastrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modelos\Consultar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modelos\Consultar.Designer.cs">
+      <DependentUpon>Consultar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Negocio\Cargo\CadastrarCargo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Negocio\Cargo\CadastrarCargo.Designer.cs">
+      <DependentUpon>CadastrarCargo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Negocio\Cargo\ConsultarCargo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Negocio\Cargo\ConsultarCargo.Designer.cs">
+      <DependentUpon>ConsultarCargo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Negocio\Categoria\CadCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Negocio\Categoria\CadCategoria.Designer.cs">
+      <DependentUpon>CadCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Negocio\Cliente\Cadastro Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Negocio\Cliente\Cadastro Cliente.Designer.cs">
+      <DependentUpon>Cadastro Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Negocio\Cliente\Consulta Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Negocio\Cliente\Consulta Cliente.Designer.cs">
+      <DependentUpon>Consulta Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Negocio\Cliente\Consulta Usuario do Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Negocio\Cliente\Consulta Usuario do Cliente.Designer.cs">
+      <DependentUpon>Consulta Usuario do Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Negocio\Cliente\Usuario Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Negocio\Cliente\Usuario Cliente.Designer.cs">
+      <DependentUpon>Usuario Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Negocio\Contas a Pagar\Consultar Contas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Negocio\Contas a Pagar\Consultar Contas.Designer.cs">
+      <DependentUpon>Consultar Contas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Negocio\Contas a Pagar\Contas a Pagar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Negocio\Contas a Pagar\Contas a Pagar.Designer.cs">
+      <DependentUpon>Contas a Pagar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Negocio\Cupom\Cupom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Negocio\Cupom\Cupom.Designer.cs">
+      <DependentUpon>Cupom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Negocio\Cupom\Gerar Cupom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Negocio\Cupom\Gerar Cupom.Designer.cs">
+      <DependentUpon>Gerar Cupom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Negocio\Fale Conosco\Resposta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Negocio\Fale Conosco\Resposta.Designer.cs">
+      <DependentUpon>Resposta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Negocio\Fornecedor\AlterarFornecedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Negocio\Fornecedor\AlterarFornecedor.Designer.cs">
+      <DependentUpon>AlterarFornecedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Negocio\Fornecedor\Cadastro de Fornecedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Negocio\Fornecedor\Cadastro de Fornecedor.Designer.cs">
+      <DependentUpon>Cadastro de Fornecedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Negocio\Fornecedor\Consulta de Fornecedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Negocio\Fornecedor\Consulta de Fornecedor.Designer.cs">
+      <DependentUpon>Consulta de Fornecedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Negocio\Funcionário\Cadastro de Funcionário.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Negocio\Funcionário\Cadastro de Funcionário.Designer.cs">
+      <DependentUpon>Cadastro de Funcionário.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Negocio\Funcionário\Consultar Funcionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Negocio\Funcionário\Consultar Funcionario.Designer.cs">
+      <DependentUpon>Consultar Funcionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Negocio\Login\Cadastrar Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Negocio\Login\Cadastrar Login.Designer.cs">
+      <DependentUpon>Cadastrar Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Negocio\Login\Consultar Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Negocio\Login\Consultar Login.Designer.cs">
+      <DependentUpon>Consultar Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Negocio\Produtos\Cadastrar Produto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Negocio\Produtos\Cadastrar Produto.Designer.cs">
+      <DependentUpon>Cadastrar Produto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Negocio\Produtos\Consultar Produto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Negocio\Produtos\Consultar Produto.Designer.cs">
+      <DependentUpon>Consultar Produto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Negocio\Produtos\Entrada de Produto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Negocio\Produtos\Entrada de Produto.Designer.cs">
+      <DependentUpon>Entrada de Produto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Negocio\Vendas\Cadastrar Venda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Negocio\Vendas\Cadastrar Venda.Designer.cs">
+      <DependentUpon>Cadastrar Venda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Negocio\Vendas\Consultar Venda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Negocio\Vendas\Consultar Venda.Designer.cs">
+      <DependentUpon>Consultar Venda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas Iniciais\TelaLoading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas Iniciais\TelaLoading.Designer.cs">
+      <DependentUpon>TelaLoading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Telas Iniciais\TelaLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas Iniciais\TelaLogin.Designer.cs">
+      <DependentUpon>TelaLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas Iniciais\TelaMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas Iniciais\TelaMenu.Designer.cs">
+      <DependentUpon>TelaMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas Iniciais\Teste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas Iniciais\Teste.Designer.cs">
+      <DependentUpon>Teste.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Modelos\Cadastrar.resx">
+      <DependentUpon>Cadastrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modelos\Consultar.resx">
+      <DependentUpon>Consultar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Negocio\Cargo\CadastrarCargo.resx">
+      <DependentUpon>CadastrarCargo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Negocio\Cargo\ConsultarCargo.resx">
+      <DependentUpon>ConsultarCargo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Negocio\Categoria\CadCategoria.resx">
+      <DependentUpon>CadCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Negocio\Cliente\Cadastro Cliente.resx">
+      <DependentUpon>Cadastro Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Negocio\Cliente\Consulta Cliente.resx">
+      <DependentUpon>Consulta Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Negocio\Cliente\Consulta Usuario do Cliente.resx">
+      <DependentUpon>Consulta Usuario do Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Negocio\Cliente\Usuario Cliente.resx">
+      <DependentUpon>Usuario Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Negocio\Contas a Pagar\Consultar Contas.resx">
+      <DependentUpon>Consultar Contas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Negocio\Contas a Pagar\Contas a Pagar.resx">
+      <DependentUpon>Contas a Pagar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Negocio\Cupom\Cupom.resx">
+      <DependentUpon>Cupom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Negocio\Cupom\Gerar Cupom.resx">
+      <DependentUpon>Gerar Cupom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Negocio\Fale Conosco\Resposta.resx">
+      <DependentUpon>Resposta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Negocio\Fornecedor\AlterarFornecedor.resx">
+      <DependentUpon>AlterarFornecedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Negocio\Fornecedor\Cadastro de Fornecedor.resx">
+      <DependentUpon>Cadastro de Fornecedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Negocio\Fornecedor\Consulta de Fornecedor.resx">
+      <DependentUpon>Consulta de Fornecedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Negocio\Funcionário\Cadastro de Funcionário.resx">
+      <DependentUpon>Cadastro de Funcionário.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Negocio\Funcionário\Consultar Funcionario.resx">
+      <DependentUpon>Consultar Funcionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Negocio\Login\Cadastrar Login.resx">
+      <DependentUpon>Cadastrar Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Negocio\Login\Consultar Login.resx">
+      <DependentUpon>Consultar Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Negocio\Produtos\Cadastrar Produto.resx">
+      <DependentUpon>Cadastrar Produto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Negocio\Produtos\Consultar Produto.resx">
+      <DependentUpon>Consultar Produto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Negocio\Produtos\Entrada de Produto.resx">
+      <DependentUpon>Entrada de Produto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Negocio\Vendas\Cadastrar Venda.resx">
+      <DependentUpon>Cadastrar Venda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Negocio\Vendas\Consultar Venda.resx">
+      <DependentUpon>Consultar Venda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Telas Iniciais\TelaLoading.resx">
+      <DependentUpon>TelaLoading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas Iniciais\TelaLogin.resx">
+      <DependentUpon>TelaLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas Iniciais\TelaMenu.resx">
+      <DependentUpon>TelaMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas Iniciais\Teste.resx">
+      <DependentUpon>Teste.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL_SORVETERIA\BLL_SORVETERIA.csproj">
+      <Project>{21500f8b-d1c1-4b4e-9285-0cf3fe958b1c}</Project>
+      <Name>BLL_SORVETERIA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAO_SORVETERIA\DAO_SORVETERIA.csproj">
+      <Project>{7b2f36bc-5aa5-4a62-be95-66493b573c1d}</Project>
+      <Name>DAO_SORVETERIA</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logomarca-sorveteria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo-sorveteria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo-sorveteria1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sorveteria %282%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

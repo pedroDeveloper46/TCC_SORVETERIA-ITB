@@ -1,0 +1,74 @@
+Z:\TCC-Sorveteria\DAO_SORVETERIA\bin\Debug\DAO_SORVETERIA.dll
+Z:\TCC-Sorveteria\DAO_SORVETERIA\bin\Debug\DAO_SORVETERIA.pdb
+Z:\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.dll
+Z:\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.pdb
+C:\Users\preta\Desktop\Gabriel\2018\TCC\TCC-Sorveteria\DAO_SORVETERIA\bin\Debug\DAO_SORVETERIA.dll
+C:\Users\preta\Desktop\Gabriel\2018\TCC\TCC-Sorveteria\DAO_SORVETERIA\bin\Debug\DAO_SORVETERIA.pdb
+C:\Users\preta\Desktop\Gabriel\2018\TCC\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.csprojResolveAssemblyReference.cache
+C:\Users\preta\Desktop\Gabriel\2018\TCC\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.dll
+C:\Users\preta\Desktop\Gabriel\2018\TCC\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.pdb
+E:\TCC-Sorveteria\DAO_SORVETERIA\bin\Debug\DAO_SORVETERIA.dll
+E:\TCC-Sorveteria\DAO_SORVETERIA\bin\Debug\DAO_SORVETERIA.pdb
+E:\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.dll
+E:\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.pdb
+Z:\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.csprojResolveAssemblyReference.cache
+E:\TCC_Sorveteria\TCC-Sorveteria\DAO_SORVETERIA\bin\Debug\DAO_SORVETERIA.dll
+E:\TCC_Sorveteria\TCC-Sorveteria\DAO_SORVETERIA\bin\Debug\DAO_SORVETERIA.pdb
+E:\TCC_Sorveteria\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.csprojResolveAssemblyReference.cache
+E:\TCC_Sorveteria\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.dll
+E:\TCC_Sorveteria\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.pdb
+Z:\TCC_Sorveteria\TCC-Sorveteria\DAO_SORVETERIA\bin\Debug\DAO_SORVETERIA.dll
+Z:\TCC_Sorveteria\TCC-Sorveteria\DAO_SORVETERIA\bin\Debug\DAO_SORVETERIA.pdb
+Z:\TCC_Sorveteria\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.dll
+Z:\TCC_Sorveteria\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.pdb
+C:\Users\Pedro Victor\Desktop\TCC_Sorveteria\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.dll
+C:\Users\Pedro Victor\Desktop\TCC_Sorveteria\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.pdb
+C:\Users\Pedro Victor\Desktop\TCC_Sorveteria\TCC-Sorveteria\DAO_SORVETERIA\bin\Debug\DAO_SORVETERIA.dll
+C:\Users\Pedro Victor\Desktop\TCC_Sorveteria\TCC-Sorveteria\DAO_SORVETERIA\bin\Debug\DAO_SORVETERIA.pdb
+Z:\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\bin\Debug\DAO_SORVETERIA.dll
+Z:\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\bin\Debug\DAO_SORVETERIA.pdb
+Z:\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.csproj.CoreCompileInputs.cache
+Z:\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.dll
+Z:\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.pdb
+Z:\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.csprojAssemblyReference.cache
+D:\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\bin\Debug\DAO_SORVETERIA.dll
+D:\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\bin\Debug\DAO_SORVETERIA.pdb
+D:\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.csproj.CoreCompileInputs.cache
+D:\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.dll
+D:\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.pdb
+Z:\TCC_2019\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\bin\Debug\DAO_SORVETERIA.dll
+Z:\TCC_2019\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\bin\Debug\DAO_SORVETERIA.pdb
+Z:\TCC_2019\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.csproj.CoreCompileInputs.cache
+Z:\TCC_2019\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.dll
+Z:\TCC_2019\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.pdb
+D:\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.csprojAssemblyReference.cache
+Z:\TCC\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\bin\Debug\DAO_SORVETERIA.dll
+Z:\TCC\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\bin\Debug\DAO_SORVETERIA.pdb
+Z:\TCC\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.csprojAssemblyReference.cache
+Z:\TCC\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.csproj.CoreCompileInputs.cache
+Z:\TCC\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.dll
+Z:\TCC\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.pdb
+D:\TCC\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\bin\Debug\DAO_SORVETERIA.dll
+D:\TCC\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\bin\Debug\DAO_SORVETERIA.pdb
+D:\TCC\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.csproj.CoreCompileInputs.cache
+D:\TCC\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.dll
+D:\TCC\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.pdb
+D:\TCC\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.csprojAssemblyReference.cache
+F:\TCC\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\bin\Debug\DAO_SORVETERIA.dll
+F:\TCC\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\bin\Debug\DAO_SORVETERIA.pdb
+F:\TCC\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.csprojAssemblyReference.cache
+F:\TCC\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.csproj.CoreCompileInputs.cache
+F:\TCC\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.dll
+F:\TCC\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.pdb
+C:\Users\Pedro Victor\Desktop\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.csproj.CoreCompileInputs.cache
+C:\Users\Pedro Victor\Desktop\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.dll
+C:\Users\Pedro Victor\Desktop\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.pdb
+C:\Users\Pedro Victor\Desktop\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\bin\Debug\DAO_SORVETERIA.dll
+C:\Users\Pedro Victor\Desktop\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\bin\Debug\DAO_SORVETERIA.pdb
+C:\Users\Pedro Victor\Desktop\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.csprojAssemblyReference.cache
+F:\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\bin\Debug\DAO_SORVETERIA.dll
+F:\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\bin\Debug\DAO_SORVETERIA.pdb
+F:\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.csprojAssemblyReference.cache
+F:\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.csproj.CoreCompileInputs.cache
+F:\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.dll
+F:\TCC_Sorveteria_2019\TCC-Sorveteria\DAO_SORVETERIA\obj\Debug\DAO_SORVETERIA.pdb
